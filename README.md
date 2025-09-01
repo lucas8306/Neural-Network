@@ -16,7 +16,6 @@ Funcionalidades e características:
 - Seleção por torneio ou roleta.
 - Normalização de entrada e saída.
 - Salvamento e carregamento de modelos.
-- Simulação customizável.
 - Treinamento com elitismo e controle de gerações.
 - Sem dependências externas.
 
