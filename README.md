@@ -18,9 +18,3 @@ Funcionalidades e características:
 - Salvamento e carregamento de modelos.
 - Treinamento com elitismo e controle de gerações.
 - Sem dependências externas.
-
-Na linha 322 contém:
-
-`break`
-
-Esse break interrompe o treinamento caso não haja melhoria de fitness em uma geração. Embora isso possa acelerar testes, é recomendável remover essa linha para permitir que o algoritmo evolua por todas as gerações.
