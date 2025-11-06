@@ -77,7 +77,7 @@ NeuralNetwork.__index = NeuralNetwork
 
 function NeuralNetwork.new(i, h, o, a)
   local self = setmetatable({}, NeuralNetwork)
-  self.arch = { i, table.unpack(h), o }
+  self.arch = { i, unpack(h), o }
   self.actNames = a or {}
   self.weights, self.biases = {}, {}
   for L = 1, #self.arch - 1 do
